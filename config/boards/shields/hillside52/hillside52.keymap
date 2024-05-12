@@ -51,18 +51,18 @@
                 default_layer {
 
                         bindings = <
-&kp  TAB         &kp  Q           &kp  W        &kp  E        &kp  R        &kp  T                                                                                 &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  MINUS
-&kp  LSHFT       &kp  A           &kp  S        &kp  D        &kp  F        &kp  G                                                                                 &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  SQT
-&kp  LCTRL       &kp  Z           &kp  X        &kp  C        &kp  V        &kp  B          &kp LA(LSHIFT)                                           &kp  SLASH    &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  FSLH     &kp  RSHFT
-&kp  LC(PG_UP)   &kp  LC(PG_DN)   &kp  LCTRL                  &kp  LGUI     &mt  LCTRL TAB  &mt LCTRL  BSPC    &mo 2                        &kp A    &kp  RET      &kp  LALT     &kp  RGUI                   &kp  HOME     &kp  END      &kp  DEL
+&kp  TAB         &kp  Q           &kp  W        &kp  E        &kp  R        &kp  T                                                                                 &kp  Y        &kp  U        &kp  I             &kp  O             &kp  P                &kp  MINUS
+&kp  LSHFT       &kp  A           &kp  S        &kp  D        &kp  F        &kp  G                                                                                 &kp  H        &kp  J        &kp  K             &kp  L             &kp  SEMI             &kp  SQT
+&kp  LCTRL       &mt  LSHIFT Z    &kp  X        &kp  C        &kp  V        &kp  B          &kp LA(LSHIFT)                                           &kp  SLASH    &kp  N        &kp  M        &mt  RCTL COMMA    &mt  RALT DOT      &mt  RSHIFT  FSLH     &kp  RSHFT
+&kp  LC(PG_UP)   &kp  LC(PG_DN)   &kp  LCTRL                  &kp  LGUI     &mt  LALT TAB   &mt LCTRL  BSPC    &mo 2                        &mo 1    &kp  SPACE    &kp  LALT     &kp  RGUI                        &kp  HOME          &kp  END              &kp  DEL
                         >;
 		};
 		
 	       fpsnumber_layer {
 
                         bindings = <
-&kp  I        &kp  ESC      &kp  LSHIFT   &kp  W       &kp  C          &kp  R                                                                        &kp  MINUS    &kp  N7       &kp  N8       &kp  N9       &kp  MINUS           &kp  MINUS
-&kp  LSHFT    &kp  E        &kp  A        &kp  S       &kp  D          &kp  G                                                                        &kp  PLUS     &kp  N4       &kp  N5       &kp  N6       &kp  KP_MULTIPLY     &kp  SQT
+&kp  I        &kp  ESC      &kp  LSHIFT   &kp  W       &kp  C          &kp  R                                                                        &kp  MINUS    &kp  N7       &kp  N8       &kp  N9       &kp  MINUS           &kp  BSPC
+&kp  LSHFT    &kp  E        &kp  A        &kp  S       &kp  D          &kp  G                                                                        &kp  PLUS     &kp  N4       &kp  N5       &kp  N6       &kp  KP_MULTIPLY     &kp  DOT
 &kp  LCTRL    &kp  X        &kp  N3       &mo  2       &kp  F          &kp  N5    &kp  F2                                              &kp  RET      &kp  N0       &kp  N1       &kp  N2       &kp  N3       &kp  KP_DIVIDE       &kp  RSHFT
 &trans        &kp  ESC      &kp  LCTRL                 &none           &kp  Z     &kp  SPACE    &kp LALT                    &kp EQUAL  &kp  LBKT     &kp  RBKT     &kp  RET                    &kp  HOME     &kp  END             &tog 1
                         >;
