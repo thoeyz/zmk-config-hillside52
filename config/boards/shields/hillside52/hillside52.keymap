@@ -49,13 +49,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-/* QWERTY
- * -------------------------------------------------------------------------------------------------------------------------------------
- * | `     |   Q   |   W   |   E   |   R   |   T   |-----------------------------------|   Y   |   U   |   I   |   O   |   P   | BKSPC |
- * | TAB   |   A   |   S   |   D   |   F   |   G   |-----------------------------------|   H   |   J   |   K   |   L   |   ;   | ENTER |
- * | SHIFT |   Z   |   X   |   C   |   V   |   B   |   '   |-------------------|   /   |   N   |   M   |   ,   |   .   |  Up   | SHIFT |
- * | Mute  |  ESC  | CTRL  |-------|  GUI  |  ALT  |SK SHFT|  Nav  |---|  Sym  | SPACE |  ALT  |  GUI  |-------| Left  | Down  | Right |
- */
+
                         bindings = <
 &kp  TAB         &kp  Q           &kp  W        &kp  E        &kp  R        &kp  T                                                                                 &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  MINUS
 &kp  LSHFT       &kp  A           &kp  S        &kp  D        &kp  F        &kp  G                                                                                 &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  SQT
@@ -65,13 +59,7 @@
 		};
 		
 	       fpsnumber_layer {
-/* QWERTY
- * -------------------------------------------------------------------------------------------------------------------------------------
- * | `     |   Q   |   W   |   E   |   R   |   T   |-----------------------------------|   Y   |   U   |   I   |   O   |   P   | BKSPC |
- * | TAB   |   A   |   S   |   D   |   F   |   G   |-----------------------------------|   H   |   J   |   K   |   L   |   ;   | ENTER |
- * | SHIFT |   Z   |   X   |   C   |   V   |   B   |   '   |-------------------|   /   |   N   |   M   |   ,   |   .   |  Up   | SHIFT |
- * | Mute  |  ESC  | CTRL  |-------|  GUI  |  ALT  |SK SHFT|  Nav  |---|  Sym  | SPACE |  ALT  |  GUI  |-------| Left  | Down  | Right |
- */
+
                         bindings = <
 &kp  I        &kp  ESC      &kp  LSHIFT   &kp  W       &kp  C          &kp  R                                                                        &kp  MINUS    &kp  N7       &kp  N8       &kp  N9       &kp  MINUS           &kp  MINUS
 &kp  LSHFT    &kp  E        &kp  A        &kp  S       &kp  D          &kp  G                                                                        &kp  PLUS     &kp  N4       &kp  N5       &kp  N6       &kp  KP_MULTIPLY     &kp  SQT
@@ -81,13 +69,7 @@
 		};
 
                navsim_layer {
-/* QWERTY
- * -------------------------------------------------------------------------------------------------------------------------------------
- * | `     |   Q   |   W   |   E   |   R   |   T   |-----------------------------------|   Y   |   U   |   I   |   O   |   P   | BKSPC |
- * | TAB   |   A   |   S   |   D   |   F   |   G   |-----------------------------------|   H   |   J   |   K   |   L   |   ;   | ENTER |
- * | SHIFT |   Z   |   X   |   C   |   V   |   B   |   '   |-------------------|   /   |   N   |   M   |   ,   |   .   |  Up   | SHIFT |
- * | Mute  |  ESC  | CTRL  |-------|  GUI  |  ALT  |SK SHFT|  Nav  |---|  Sym  | SPACE |  ALT  |  GUI  |-------| Left  | Down  | Right |
- */
+
                         bindings = <
 &kp  ESC      &kp  N1       &kp  N2       &kp  N4       &kp  N5        &kp  N6                                                                          &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  MINUS    &kp  MINUS
 &kp  F5       &kp  F2       &kp  LEFT     &kp  UP       &kp  RIGHT     &kp  HOME                                                                        &kp  LPAR     &kp  RPAR     &kp  LBRC     &kp  RBRC     &kp  APOS     &kp  SQT
