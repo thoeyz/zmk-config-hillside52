@@ -93,10 +93,10 @@
 		southpawnum_layer {
 
                         bindings = <
-&kp  ESC      &kp  N1     &kp  N7       &kp  N8      &kp  N9           &kp  RET                                                                   &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  MINUS    &kp  MINUS
-&kp  F5       &kp  F2     &kp  N4       &kp  N5      &kp  N6           &kp  DOT                                                                   &kp  LPAR     &kp  RPAR     &kp  LBRC     &kp  RBRC     &kp  APOS     &kp  SQT
-&kp  LCTRL    &kp  F4     &kp  N1       &kp  N2      &kp  N3           &kp  N0     &kp  DEL                                         &kp  SLASH    &kp  LT       &kp  GT       &kp  COMMA    &kp  DOT      &kp  FSLH     &kp  RSHFT
-&kp  C_MUTE   &kp  ESC    &kp  LCTRL                 &kp  KP_KPDIVIDE  &kp  MINUS  &kp  PLUS  &kp KP_KPMULTIPLY          &kp EQUAL  &kp  LBKT     &kp  RBKT     &kp  RET                    &kp  HOME     &kp  END      &kp  DEL
+&kp  ESC      &kp  N1     &kp  N7       &kp  N8      &kp  N9         &kp  RET                                                                 &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  MINUS    &kp  MINUS
+&kp  F5       &kp  F2     &kp  N4       &kp  N5      &kp  N6         &kp  DOT                                                                 &kp  LPAR     &kp  RPAR     &kp  LBRC     &kp  RBRC     &kp  APOS     &kp  SQT
+&kp  LCTRL    &kp  F4     &kp  N1       &kp  N2      &kp  N3         &kp  N0     &kp  DEL                                       &kp  SLASH    &kp  LT       &kp  GT       &kp  COMMA    &kp  DOT      &kp  FSLH     &kp  RSHFT
+&kp  C_MUTE   &kp  ESC    &kp  LCTRL                 &kp  KP_DIVIDE  &kp  MINUS  &kp  PLUS  &kp KP_MULTIPLY          &kp EQUAL  &kp  LBKT     &kp  RBKT     &kp  RET                    &kp  HOME     &kp  END      &kp  DEL
                         >;
 
                 };
