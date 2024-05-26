@@ -103,7 +103,7 @@
 
 		onehanded_layer {
 
-                        bindings
+                        bindings = <
 &kp  ESC         &kp  P           &kp  O        &kp  I        &kp  U       &kp  Y                                                               &kp  Y        &kp  U        &kp  I             &kp  O             &kp  P                &kp  MINUS
 &kp  SPACE       &kp  SEMI        &kp  L        &kp  K        &kp  J       &kp  H                                                               &kp  H        &kp  J        &kp  K             &kp  L             &kp  SEMI             &kp  RET
 &kp  RET         &kp  FSLH        &kp  DOT      &kp  COMMA    &kp  M       &kp  N       &kp LA(LSHIFT)                            &kp  RET      &kp  N        &kp  M        &mt  RCTL COMMA    &mt  RALT DOT      &mt  RSHIFT  FSLH     &kp  RSHFT
