@@ -54,7 +54,7 @@
 &kp  TAB         &kp  Q           &kp  W        &kp  E        &kp  R       &kp  T                                                                               &kp  Y        &kp  U        &kp  I             &kp  O             &kp  P                &kp  MINUS
 &mo  2           &lt  4 A         &kp  S        &kp  D        &kp  F       &kp  G                                                                               &kp  H        &kp  J        &kp  K             &kp  L             &kp  SEMI             &kp  RET
 &kp  DEL         &mt  LSHIFT Z    &kp  X        &kp  C        &kp  V       &kp  B          &kp LA(LSHIFT)                                         &kp  RET      &kp  N        &kp  M        &mt  RCTL COMMA    &mt  RALT DOT      &mt  RSHIFT  FSLH     &kp  RSHFT
-&kp  LC(PG_UP)   &kp  LC(PG_DN)   &tog 1                      &lt  4 ESC   &mt  LALT TAB   &mt LCTRL  BSPC    &mo 2                      &mo 1    &kp  SPACE    &kp  RALT     &kp  RGUI                        &kp  HOME          &kp  END              &kp  DEL
+&kp  LC(PG_UP)   &kp  LC(PG_DN)   &tog 1                      &lt  5 ESC   &mt  LALT TAB   &mt LCTRL  BSPC    &mo 2                      &mo 1    &kp  SPACE    &kp  RALT     &kp  RGUI                        &kp  HOME          &kp  END              &kp  DEL
                         >;
 		};
 		
@@ -101,7 +101,15 @@
 
                 };
 
+		onehanded_layer {
 
+                        bindings = <
+&kp  ESC         &kp  P           &kp  O        &kp  I        &kp  U       &kp  Y                                                                               &kp  Y        &kp  U        &kp  I             &kp  O             &kp  P                &kp  MINUS
+&kp  SPACE       &kp  semi        &kp  L        &kp  K        &kp  J       &kp  H                                                                               &kp  H        &kp  J        &kp  K             &kp  L             &kp  SEMI             &kp  RET
+&kp  RET         &kp  FSLH        &kp  DOT      &kp  COMMA    &kp  M       &kp  N          &kp LA(LSHIFT)                                         &kp  RET      &kp  N        &kp  M        &mt  RCTL COMMA    &mt  RALT DOT      &mt  RSHIFT  FSLH     &kp  RSHFT
+&none            &none            &none                       &lt  4 ESC   &mt  LALT TAB   &mt LCT  BSPC    &mo 2                      &mo 1    &kp  SPACE    &kp  RALT     &kp  RGUI                        &kp  HOME          &kp  END              &kp  DEL
+                        >;
+		};
 
  	 };
 };
