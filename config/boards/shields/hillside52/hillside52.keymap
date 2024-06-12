@@ -80,10 +80,10 @@
                navsim_layer {
 
                         bindings = <
-&kp  ESC      &kp  N1       &kp  N2       &kp  N4       &kp  N5        &kp  N6                                                                        &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  MINUS    &kp  MINUS
-&kp  F5       &kp  F2       &kp  LEFT     &kp  UP       &kp  RIGHT     &kp  HOME                                                                      &kp  LPAR     &kp  RPAR     &kp  LBRC     &kp  RBRC     &kp  APOS     &kp  SQT
-&kp  LCTRL    &kp  F4       &kp  LA(LEFT) &kp  DOWN     &kp  LA(RIGHT) &kp  END    &kp  SQT                                             &kp  SLASH    &kp  LT       &kp  GT       &kp  COMMA    &kp  DOT      &kp  FSLH     &kp  RSHFT
-&kp  C_MUTE   &kp  ESC      &kp  LCTRL                  &kp  F9        &kp  F2     &kp  LC(PG_UP)  &kp LC(PG_DN)             &kp EQUAL  &kp  LBKT     &kp  RBKT     &none                       &kp  HOME     &kp  END      &tog 1
+&kp  ESC      &kp  N1       &kp  N2       &kp  N4       &kp  N5        &kp  N6                                                                      &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  MINUS    &kp  MINUS
+&kp  F5       &kp  F2       &kp  LEFT     &kp  UP       &kp  RIGHT     &kp  HOME                                                                    &kp  LPAR     &kp  RPAR     &kp  LBRC     &kp  RBRC     &kp  APOS     &kp  SQT
+&kp  LCTRL    &kp  F4       &kp  LA(LEFT) &kp  DOWN     &kp  LA(RIGHT) &kp  END    &tog 1                                             &kp  SLASH    &kp  LT       &kp  GT       &kp  COMMA    &kp  DOT      &kp  FSLH     &kp  RSHFT
+&kp  C_MUTE   &kp  ESC      &kp  LCTRL                  &kp  F9        &kp  F2     &kp  LC(PG_UP)  &kp LC(PG_DN)           &kp EQUAL  &kp  LBKT     &kp  RBKT     &none                       &kp  HOME     &kp  END      &tog 1
                         >;
 
                 };
