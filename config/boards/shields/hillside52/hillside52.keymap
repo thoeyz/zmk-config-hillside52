@@ -71,7 +71,7 @@
 
                         bindings = <
 &kp  O        &kp  ESC      &kp  LSHIFT   &kp  W       &kp  C     &kp  R                                                                     &kp  MINUS    &kp  N7       &kp  N8       &kp  N9       &kp  MINUS           &kp  DEL
-&lt  3 I      &kp  E        &kp  A        &kp  S       &kp  D     &kp  G                                                                     &kp  PLUS     &kp  N4       &kp  N5       &kp  N6       &kp  KP_MULTIPLY     &kp  DOT
+&lt  3 I      &kp  E        &kp  A        &kp  S       &kp  D     &lt  5 G                                                                   &kp  PLUS     &kp  N4       &kp  N5       &kp  N6       &kp  KP_MULTIPLY     &kp  DOT
 &kp  Q        &kp  X        &kp  N3       &kp LEFT     &kp  F     &kp  N5    &kp  F2                                           &kp  RET      &kp  N0       &kp  N1       &kp  N2       &kp  N3       &kp  KP_DIVIDE       &kp  RSHFT
 &kp  LEFT     &kp  RIGHT    &tog 1                     &kp  B     &kp  Z     &kp  SPACE    &kp LALT                  &tog 1    &kp  LBKT     &kp  RBKT     &kp  RET                    &trans        &kp  END             &trans
                         >;
@@ -116,7 +116,7 @@
 &kp  ESC         &kp  P           &kp  O        &kp  I        &kp  U       &kp  Y                                                               &kp  Y        &kp  U        &kp  I             &kp  O             &kp  P                &kp  MINUS
 &kp  SPACE       &kp  SEMI        &kp  L        &kp  K        &kp  J       &kp  H                                                               &kp  H        &kp  J        &kp  K             &kp  L             &kp  SEMI             &kp  RET
 &kp  RET         &kp  FSLH        &kp  DOT      &kp  COMMA    &kp  M       &kp  N       &kp LA(LSHIFT)                            &kp  RET      &kp  N        &kp  M        &mt  RCTL COMMA    &mt  RALT DOT      &mt  RSHIFT  FSLH     &kp  RSHFT
-&none            &none            &none                       &none        &none        &none     &none                  &mo 1    &kp  SPACE    &kp  RALT     &kp  RGUI                        &kp  HOME          &kp  END              &kp  DEL
+&none            &none            &none                       &none        &none        &kp LEFT    &kp RIGHT            &mo 1    &kp  SPACE    &kp  RALT     &kp  RGUI                        &kp  HOME          &kp  END              &kp  DEL
                         >;
 		};
 
