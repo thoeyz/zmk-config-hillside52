@@ -102,10 +102,10 @@
 		southpawnum_layer {
 
                         bindings = <
-&kp  ESC      &kp  N1     &kp  N7       &kp  N8      &kp  N9         &kp  RET                                                                     &kp  PG_UP     &kp  RA(LEFT) &kp  UP       &kp  RA(RIGHT) &kp  HOME     &kp  RA(N1)
-&kp  F5       &kp  F2     &kp  N4       &kp  N5      &kp  N6         &kp  DOT                                                                     &kp  PG_DN     &kp  LEFT     &kp  DOWN     &kp  RIGHT     &kp  END      &kp  RA(N2)
-&kp  LCTRL    &kp  F4     &kp  N1       &kp  N2      &kp  N3         &kp  N0     &kp  DEL                                           &tog  4       &kp  LT        &kp  GT       &kp  COMMA    &kp  DOT       &kp  FSLH     &kp  RSHFT
-&kp  C_MUTE   &kp  ESC    &kp  LCTRL                 &kp  KP_DIVIDE  &kp  MINUS  &kp  PLUS  &kp KP_MULTIPLY          &kp RC(PG_UP)  &kp RC(PG_DN) &kp  RBKT      &kp  RET                    &kp  HOME      &kp  END      &kp  DEL
+&kp  ESC      &kp  N1     &kp  N7       &kp  N8      &kp  N9         &kp  RET                                                                     &kp  PG_UP     &kp  RA(LEFT) &kp  UP     &kp  RA(RIGHT) &kp  HOME     &kp  RA(N1)
+&kp  F5       &kp  F2     &kp  N4       &kp  N5      &kp  N6         &kp  DOT                                                                     &kp  PG_DN     &kp  LEFT     &kp  DOWN   &kp  RIGHT     &kp  END      &kp  RA(N2)
+&kp  LCTRL    &kp  F4     &kp  N1       &kp  N2      &kp  N3         &kp  N0     &kp  DEL                                           &tog  4       &kp  RALT      &kp  TAB      &kp  F5     &kp  DOT       &kp  FSLH     &kp  RSHFT
+&kp  C_MUTE   &kp  ESC    &kp  LCTRL                 &kp  KP_DIVIDE  &kp  MINUS  &kp  PLUS  &kp KP_MULTIPLY          &kp RC(PG_UP)  &kp RC(PG_DN) &kp  RBKT      &kp  RET                  &kp  HOME      &kp  END      &kp  DEL
                         >;
 
                 };
