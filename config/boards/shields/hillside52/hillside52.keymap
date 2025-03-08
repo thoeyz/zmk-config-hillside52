@@ -49,6 +49,12 @@
             		layers = <0>;
             		bindings = <&kp LA(N1)>;
        		};
+		combo_RALT1 {
+            		timeout-ms = <50>;
+            		key-positions = <8 9>;
+            		layers = <0>;
+            		bindings = <&kp LA(N1)>;
+       		};
 
        	 	combo_ALT2 {
             		timeout-ms = <50>;
@@ -56,6 +62,12 @@
             		layers = <0>;
             		bindings = <&kp LA(N2)>;
         	};
+		combo_RALT2 {
+            		timeout-ms = <50>;
+            		key-positions = <34 35>;
+            		layers = <0>;
+            		bindings = <&kp LA(N1)>;
+       		};
 
     		combo_THAI {
             		timeout-ms = <50>;
