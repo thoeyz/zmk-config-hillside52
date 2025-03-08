@@ -75,7 +75,18 @@
             		layers = <0>;
             		bindings = <&kp LA(LSHIFT)>;
         	};
-
+		combo_HOME {
+            		timeout-ms = <50>;
+            		key-positions = <10 11>;
+            		layers = <0>;
+            		bindings = <&kp HOME>;
+        	};
+		combo_END {
+            		timeout-ms = <50>;
+            		key-positions = <22 23>;
+            		layers = <0>;
+            		bindings = <&kp END>;
+        	};
 
 	};
 
