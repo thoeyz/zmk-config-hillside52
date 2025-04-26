@@ -21,50 +21,50 @@
         	compatible = "zmk,combos";
         	combo_PGUP {
             		timeout-ms = <50>;
-            		key-positions = <2 4>;
+            		key-positions = <2 3>;
             		layers = <0>;
             		bindings = <&kp PG_UP>;
         	};
 		combo_RPGUP {
             		timeout-ms = <50>;
-            		key-positions = <7 9>;
+            		key-positions = <8 9>;
             		layers = <0>;
             		bindings = <&kp PG_UP>;
         	};
         	combo_PGDN {
             		timeout-ms = <50>;
-            		key-positions = <26 28>;
+            		key-positions = <26 27>;
             		layers = <0>;
             		bindings = <&kp PG_DN>;
         	};
 		combo_RPGDN {
             		timeout-ms = <50>;
-            		key-positions = <33 35>;
+            		key-positions = <34 35>;
             		layers = <0>;
             		bindings = <&kp PG_DN>;
         	};
         	combo_ALT1 {
             		timeout-ms = <50>;
-            		key-positions = <2 3>;
+            		key-positions = <2 4>;
             		layers = <0>;
             		bindings = <&kp LA(N1)>;
        		};
 		combo_RALT1 {
             		timeout-ms = <50>;
-            		key-positions = <8 9>;
+            		key-positions = <7 9>;
             		layers = <0>;
             		bindings = <&kp LA(N1)>;
        		};
 
        	 	combo_ALT2 {
             		timeout-ms = <50>;
-            		key-positions = <26 27>;
+            		key-positions = <26 28>;
             		layers = <0>;
             		bindings = <&kp LA(N2)>;
         	};
 		combo_RALT2 {
             		timeout-ms = <50>;
-            		key-positions = <34 35>;
+            		key-positions = <33 35>;
             		layers = <0>;
             		bindings = <&kp LA(N2)>;
        		};
@@ -87,6 +87,13 @@
             		layers = <0>;
             		bindings = <&kp END>;
         	};
+		combo_SKALT {
+            		timeout-ms = <50>;
+            		key-positions = <14 15>;
+            		layers = <0>;
+            		bindings = <&sk LALT>;
+        	};
+
 
 	};
 
