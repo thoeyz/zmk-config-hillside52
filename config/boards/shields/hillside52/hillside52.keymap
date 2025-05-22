@@ -71,7 +71,7 @@
 
     		combo_THAI {
             		timeout-ms = <50>;
-            		key-positions = <0 1>;
+            		key-positions = <1 12>;
             		layers = <0>;
             		bindings = <&kp LA(LSHIFT)>;
         	};
